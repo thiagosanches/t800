@@ -1,4 +1,4 @@
-# arisco
+# t800
 An unexpected Telegram/Raspberry journey.
 
 # Installation

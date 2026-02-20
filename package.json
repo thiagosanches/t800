@@ -23,5 +23,10 @@
     "eslint": "^10.0.1",
     "node-telegram-bot-api": "^0.67.0",
     "puppeteer": "^24.37.5"
+  },
+  "overrides": {
+    "form-data": "^4.0.0",
+    "tough-cookie": "^5.0.0",
+    "qs": "^6.14.1"
   }
 }

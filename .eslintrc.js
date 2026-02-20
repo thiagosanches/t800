@@ -25,12 +25,12 @@ module.exports = {
         'no-console': 'off',
         'no-trailing-spaces': 'error'
     },
-    "globals": {
-        "describe": false,
-        "beforeEach": false,
-        "afterEach": false,
-        "jasmine": false,
-        "it": false,
-        "expect": false
+    'globals': {
+        'describe': false,
+        'beforeEach': false,
+        'afterEach': false,
+        'jasmine': false,
+        'it': false,
+        'expect': false
     }
 };

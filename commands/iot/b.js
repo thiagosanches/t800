@@ -2,9 +2,9 @@
 const axios = require('axios');
 module.exports.execute = async function (json, msg, match, bot) {
     console.log('Executing b.js');
-    
+
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, "💡 Bulb blinking!");
+    bot.sendMessage(chatId, '💡 Bulb blinking!');
 
     await axios.post(`${json.config.bulb}/json`, { on: false });
     await new Promise(resolve => setTimeout(resolve, 500));

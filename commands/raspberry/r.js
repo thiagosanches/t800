@@ -29,7 +29,7 @@ module.exports.execute = async function (json, msg, match, bot) {
             }
         }
         return null;
-    }
+    };
 
     const customCommand = getCustomCommand(command);
 
@@ -48,7 +48,7 @@ module.exports.execute = async function (json, msg, match, bot) {
                 return true;
         }
         return false;
-    }
+    };
 
     if (existDeniedCommands(command) &&
         !json.config.adminUsers.includes(chatId)) {
@@ -58,4 +58,4 @@ module.exports.execute = async function (json, msg, match, bot) {
 
     execute(command, (error, stdout, stderr) =>
         bot.sendMessage(chatId, '<code>' + stdout + stderr + '</code>', { parse_mode: 'HTML' }));
-}
+};

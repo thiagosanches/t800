@@ -5,6 +5,8 @@
   "main": "arisco.js",
   "scripts": {
     "test": "node --test tests/**/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage tests/**/*.test.js",
+    "coverage": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=coverage/lcov.info tests/**/*.test.js && node --test --experimental-test-coverage tests/**/*.test.js",
     "lint": "eslint"
   },
   "repository": {

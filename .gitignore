@@ -2,3 +2,4 @@ node_modules/
 *.jpg
 config.json
 nohup.out
+coverage/

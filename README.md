@@ -4,8 +4,8 @@ An unexpected Telegram/Raspberry journey.
 # Installation
 
 ```
-git clone https://github.com/thiagosanches/arisco.git
-cd arisco
+git clone https://github.com/thiagosanches/t800.git
+cd t800
 npm i
 node main.js
 ```
